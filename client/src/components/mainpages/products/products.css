@@ -34,7 +34,7 @@
 /* ------------ Filters Menu ----------------- */
 .filter_menu{
     width: 100%;
-    min-height: 40px;
+    min-height: 50px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;

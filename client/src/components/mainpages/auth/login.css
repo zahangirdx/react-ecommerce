@@ -1,6 +1,6 @@
 .login-page{
     max-width: 500px;
-    border: 2px solid rgb(3, 165, 206);
+    border: 2px solid rgb(206, 3, 3);
     border-radius: 5px;
     padding: 30px;
     margin: 50px auto;
@@ -8,7 +8,9 @@
 .login-page h2{
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #555;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
 }
 .login-page form input,
 .login-page form button{
@@ -17,7 +19,8 @@
     margin: 10px 0;
     padding: 0 5px;
     outline: rgb(3, 165, 206);
-    border: 1px solid rgb(3, 165, 206);
+    border: 3px solid rgb(3, 165, 206);
+    border-radius: 4%;
 }
 .login-page form .row{
     display: flex;
@@ -30,6 +33,9 @@
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.login-page form button:hover {
+    background: blue;
 }
 .login-page form a{
     color: orange;

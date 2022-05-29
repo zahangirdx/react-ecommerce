@@ -7,6 +7,8 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: #fff;
 }
 
 code {
@@ -18,7 +20,7 @@ code {
   min-height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
-  box-shadow: 0 0 35px #eee;
+  box-shadow: 0 0 55px rgba(0, 234, 255, 0.385);
 }
 a{
   text-decoration: none;

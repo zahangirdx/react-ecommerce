@@ -111,9 +111,9 @@ function Cart() {
 
             <div className="total">
                 <h3>Total: $ {total}</h3>
-                <PaypalButton
+              <PaypalButton
                 total={total}
-                tranSuccess={tranSuccess} />
+                tranSuccess={tranSuccess} />              
             </div>
         </div>
     )

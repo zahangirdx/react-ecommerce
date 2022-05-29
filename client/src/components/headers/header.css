@@ -6,14 +6,18 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
+   
+    color: rgb(255, 255, 255);
 }
 header .logo{
     flex: 1;
+    text-align: center;   
 }
 header a{
     text-transform: uppercase;
-    color: #555;
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
 }
 header ul li{
     display: inline-block;
@@ -39,4 +43,8 @@ header ul li:hover{
     right: -10px;
     padding: 5px 7px;
     font-size: 10px;
+}
+header .logo-png {
+    align-items: center;
+    padding-left: 100px;
 }

@@ -2,6 +2,7 @@
     position: relative;
     border: 1px solid #ccc;
     transform: scaleY(0.98);
+    border-radius: 1.5%;
 }
 .amount span{
     color: crimson;
@@ -29,4 +30,11 @@
 }
 .total h3{
     color: crimson;
+}
+img {
+    border-radius: 2%;
+    transition: transform .5s;
+}
+img:hover {
+    transform: scale(1.03);
 }
